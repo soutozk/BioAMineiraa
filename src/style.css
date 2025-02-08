@@ -6,7 +6,7 @@
 
 :root {
   --text-color: white;
-  --bg-url: url(/assets/fundo.png);
+  --bg-url: url(/assets/fundo.webp);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -34,7 +34,6 @@ body * {
   padding: 0 24px;
   display: flex;
   flex-direction: column;
-  
 }
 
 #profile {
@@ -171,7 +170,6 @@ li img {
   border-radius: 20px;
   background-color: rgba(255, 255, 255, 0.226);
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
-
 }
 
 .map-container h2 {
