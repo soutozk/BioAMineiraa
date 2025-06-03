@@ -14,7 +14,7 @@
       body {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           sans-serif;
-        background: linear-gradient(135deg, #fed7aa, #fef3c7, #fecaca);
+        background: linear-gradient(135deg, #000000, #000000, #000000);
         min-height: 100vh;
         position: relative;
         overflow-x: hidden;
@@ -41,7 +41,7 @@
       .bg-circle:nth-child(1) {
         width: 256px;
         height: 256px;
-        background: #fb923c;
+        background: #bc9c22;
         top: 25%;
         left: 25%;
         animation-delay: 0s;
@@ -50,7 +50,7 @@
       .bg-circle:nth-child(2) {
         width: 192px;
         height: 192px;
-        background: #fbbf24;
+        background: #bc9c22;
         bottom: 25%;
         right: 25%;
         animation-delay: 1s;
@@ -59,7 +59,7 @@
       .bg-circle:nth-child(3) {
         width: 128px;
         height: 128px;
-        background: #f87171;
+        background: #bc9c22;
         top: 75%;
         left: 33%;
         animation-delay: 0.5s;
@@ -168,20 +168,20 @@
       .title {
         font-size: 2.5rem;
         font-weight: bold;
-        color: #9a3412;
+        color: #bc9c22;
         margin-bottom: 8px;
         animation: fadeIn 1s ease-out 0.3s both;
       }
 
       .subtitle {
         font-size: 1.125rem;
-        color: #ea580c;
+        color: #bc9c22;
         font-weight: 500;
         margin-bottom: 16px;
       }
 
       .description {
-        color: #374151;
+        color: #dadada;
         font-size: 0.875rem;
         line-height: 1.5;
         margin-bottom: 24px;
@@ -199,14 +199,15 @@
       .info-item {
         display: flex;
         align-items: center;
-        color: #c2410c;
-        font-size: 0.75rem;
+        color: white;
+        font-size: 0.9rem;
       }
 
       .info-icon {
         width: 16px;
         height: 16px;
         margin-right: 4px;
+        color: #bc9c22;
       }
 
       @keyframes fadeIn {
@@ -231,6 +232,7 @@
       .link-item {
         opacity: 0;
         animation: slideIn 0.7s ease-out forwards;
+        margin: 0;
       }
 
       .link-item:nth-child(1) {
@@ -440,7 +442,7 @@
       /* Responsividade */
       @media (max-width: 480px) {
         .container {
-          padding: 16px;
+          padding: 1%;
         }
 
         .title {
@@ -453,7 +455,7 @@
         }
 
         .card {
-          height: 100px;
+          height: 120px;
         }
       }
     </style>
@@ -568,8 +570,7 @@
         {
           id: 1,
           href: "#",
-          imageUrl:
-            "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400&h=200&fit=crop&crop=center",
+          imageUrl: "",
           altText: "Cardápio",
           icons: [
             {
@@ -587,8 +588,7 @@
         {
           id: 2,
           href: "#",
-          imageUrl:
-            "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=200&fit=crop&crop=center",
+          imageUrl: "",
           altText: "Delivery",
           icons: [
             {
@@ -606,27 +606,25 @@
         {
           id: 3,
           href: "#",
-          imageUrl:
-            "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=400&h=200&fit=crop&crop=center",
-          altText: "Localização",
+          imageUrl: "/assets/Almoço.png",
+          altText: "ifood",
           icons: [
-            {
-              src: "https://cdn-icons-png.flaticon.com/512/2838/2838912.png",
-              alt: "Mapa",
-              pos: "pos-3",
-            },
-            {
-              src: "https://cdn-icons-png.flaticon.com/512/1865/1865269.png",
-              alt: "GPS",
-              pos: "pos-6",
-            },
+            // {
+            //   src: "https://cdn-icons-png.flaticon.com/512/2838/2838912.png",
+            //   alt: "Mapa",
+            //   pos: "pos-3",
+            // },
+            // {
+            //   src: "https://cdn-icons-png.flaticon.com/512/1865/1865269.png",
+            //   alt: "GPS",
+            //   pos: "pos-6",
+            // },
           ],
         },
         {
           id: 4,
           href: "#",
-          imageUrl:
-            "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=400&h=200&fit=crop&crop=center",
+          imageUrl: "",
           altText: "Eventos",
           icons: [
             {
@@ -644,8 +642,7 @@
         {
           id: 5,
           href: "#",
-          imageUrl:
-            "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=200&fit=crop&crop=center",
+          imageUrl: "",
           altText: "Galeria",
           icons: [
             {
@@ -663,8 +660,7 @@
         {
           id: 6,
           href: "#",
-          imageUrl:
-            "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=200&fit=crop&crop=center",
+          imageUrl: "",
           altText: "Avaliações",
           icons: [
             {
