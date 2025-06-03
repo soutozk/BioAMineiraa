@@ -225,7 +225,7 @@
       .links {
         display: flex;
         flex-direction: column;
-        gap: 16px;
+        gap: 28px;
         margin-bottom: 32px;
       }
 
@@ -311,8 +311,8 @@
       /* Ícones 3D ultrapassando */
       .icon3d {
         position: absolute;
-        width: 12vw;
-        max-width: 60px;
+        width: 120px;
+        max-width: 110px;
         height: auto;
         z-index: 10;
         transition: transform 0.3s ease;
@@ -326,7 +326,7 @@
       }
       .pos-2 {
         top: -10%;
-        right: -5%;
+        left: -10%;
       }
       .pos-3 {
         bottom: -10%;
@@ -377,8 +377,8 @@
       /* Responsivo: ajusta tamanho dos ícones em telas menores */
       @media (max-width: 600px) {
         .icon3d {
-          width: 16vw;
-          max-width: 45px;
+          width: 35vw;
+          max-width: 140px;
         }
       }
 
@@ -570,19 +570,19 @@
         {
           id: 1,
           href: "#",
-          imageUrl: "",
+          imageUrl: "/assets/marmitacard.png",
           altText: "Cardápio",
           icons: [
             {
-              src: "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
-              alt: "Instagram",
+              src: "/assets/Marmitex.png",
+              alt: "Marmita",
               pos: "pos-2",
             },
-            {
-              src: "https://cdn-icons-png.flaticon.com/512/2776/2776067.png",
-              alt: "Localização",
-              pos: "pos-7",
-            },
+            // {
+            //   src: "https://cdn-icons-png.flaticon.com/512/2776/2776067.png",
+            //   alt: "Localização",
+            //   pos: "pos-7",
+            // },
           ],
         },
         {
